@@ -3,8 +3,9 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-
+use Database\Seeders\RefereeSeeder;
 class DatabaseSeeder extends Seeder
+use App\Models\Referee;
 {
     /**
      * Seed the application's database.
@@ -13,6 +14,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        // $this->call([
+        //    RefereeSeeder::class
+        //]);
+		//// \App\Models\RefereeModel::factory(5)->create();
     }
 }

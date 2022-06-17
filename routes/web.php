@@ -18,9 +18,10 @@ use Illuminate\Support\Facades\Route;
 //});
 //Route::get('/', [MainController::class]);
 //Route::get('/test', [MainController::class,'test']);
-Route::get('/', 'App\Http\Controllers\MainController@home');
+Route::get('/', 'App\Http\Controllers\MainController@index');
 Route::get('/test', 'App\Http\Controllers\MainController@test')->name('test');
 Route::post('/test/check', 'App\Http\Controllers\MainController@t_check');
+Route::get('/check', 'App\Http\Controllers\MainController@start_game');
 //Route::get('/test', action:'MainController@test');
 //Route::get('/test', function () {
 //    return view('test');

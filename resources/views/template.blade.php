@@ -41,7 +41,7 @@
 	
       <div class="col-12 col-md">
         
-        <small class="d-block mb-3 text-muted">© 2017–2022</small>
+        <small class="d-block mb-3 text-muted">© 2022</small>
       </div>
       
     </div>
